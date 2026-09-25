@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: website-content-v2
+
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <body style="font-family:Arial;text-align:center;margin-top:100px;background:#fff3cd;">
+      <h1 style="font-size:60px;color:#ff9800;">Welcome to V2</h1>
+      <h2>Argo CD Canary Lab</h2>
+    </body>
+    </html>
